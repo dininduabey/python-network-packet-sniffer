@@ -44,29 +44,30 @@ Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
 ```
 
 
-#Requirements,
+# Requirements,
+---
   Python 3.x
   Scapy
-
-#Installation
+---
+# Installation
 
  Clone this repo
-
+---
 git clone https://github.com/yourusername/python-network-packet-sniffer.git
 cd python-network-packet-sniffer
-
+---
 
 # Install dependencies
-
+---
 pip install scapy
-
+---
 
 Usage,
-
+---
 Run the script as root/admin for access to network interfaces:
 
 sudo python packet_sniffer.py
-
+---
 
 Press Ctrl+C to stop sniffing.
 
