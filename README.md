@@ -44,7 +44,7 @@ Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
 ```
 
 
-## Requirements,
+## Requirements
 
 1. Python 3.x
 2. Scapy
