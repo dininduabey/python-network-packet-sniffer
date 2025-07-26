@@ -26,7 +26,7 @@ in real-time with structured and readable output formatting.
 
 ---
 💻 Sample Output
-.............................................................................
+
 Ethernet Frame:
 Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
      -IPv4 Packet:
@@ -38,7 +38,7 @@ Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
              -Flags: PA
          -Data:
              \x48\x65\x6c\x6c\x6f\x20\x57\x6f\x72\x6c\x64
-.............................................................................
+
 
 Requirements,
   Python 3.x
@@ -47,22 +47,22 @@ Requirements,
 Installation
 
 # Clone this repo
-.............................................................................
+
 git clone https://github.com/yourusername/python-network-packet-sniffer.git
 cd python-network-packet-sniffer
-.............................................................................
+
 
 # Install dependencies
-.............................................................................
+
 pip install scapy
-.............................................................................
+
 
 Usage,
 
 Run the script as root/admin for access to network interfaces:
-.............................................................................
+
 sudo python packet_sniffer.py
-.............................................................................
+
 
 Press Ctrl+C to stop sniffing.
 
