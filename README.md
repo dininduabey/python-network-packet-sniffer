@@ -44,23 +44,23 @@ Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
 ```
 
 
-# Requirements,
----
-  Python 3.x
-  Scapy
----
-# Installation
+## Requirements,
+
+1. Python 3.x
+2. Scapy
+
+## Installation
 
  Clone this repo
----
+```
 git clone https://github.com/yourusername/python-network-packet-sniffer.git
 cd python-network-packet-sniffer
----
+```
 
-# Install dependencies
----
+## Install dependencies
+```
 pip install scapy
----
+```
 
 Usage,
 ---
