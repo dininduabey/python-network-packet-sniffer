@@ -65,16 +65,16 @@ pip install scapy
 Usage,
 ---
 Run the script as root/admin for access to network interfaces:
-
+```
 sudo python packet_sniffer.py
----
+```
 
 Press Ctrl+C to stop sniffing.
 
-Contributions,
+#Contributions,
 
 - Feel free to fork this repository, improve it, and submit a pull request! Ideas for improvements:
 
-    Support for IPv6
-    Colorized terminal output
-    Packet filtering by port or protocol
+1. Support for IPv6
+2. Colorized terminal output
+3. Packet filtering by port or protocol
