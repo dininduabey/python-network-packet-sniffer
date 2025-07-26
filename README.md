@@ -1,19 +1,20 @@
-🕵️‍♂️ Python Network Packet Sniffer
+# 🕵️‍♂️ Python Network Packet Sniffer
 
-A lightweight and efficient packet sniffer built with Python and [Scapy](https://scapy.net/), capable of parsing and displaying Ethernet, IPv4, ICMP, TCP, and UDP packets 
-in real-time with structured and readable output formatting.
-
----
-📌 Features
-
-- Real-Time Packet Capturing** – Continuously monitors network traffic using `scapy.sniff()`.
-- Protocol Awareness** – Identifies and displays packet details based on the protocol (Ethernet, IPv4, ICMP, TCP, UDP).
-- Clean Output Formatting** – Uses indented tabs and colorless formatting for easy terminal viewing.
-- Hexadecimal Payload Display** – Converts raw packet payload into a readable hex-dump-like format.
-- Keyboard Interrupt Exit** – Safely stops sniffing with `Ctrl+C`.
+A lightweight and efficient packet sniffer built with Python and [Scapy](https://scapy.net/), capable of parsing and displaying Ethernet, IPv4, ICMP, TCP, and UDP packets in real-time with structured and readable output formatting.
 
 ---
-🧠 How It Works
+
+## 📌 Features
+
+- **Real-Time Packet Capturing** – Continuously monitors network traffic using `scapy.sniff()`.
+- **Protocol Awareness** – Identifies and displays packet details based on the protocol (Ethernet, IPv4, ICMP, TCP, UDP).
+- **Clean Output Formatting** – Uses indented tabs and colorless formatting for easy terminal viewing.
+- **Hexadecimal Payload Display** – Converts raw packet payload into a readable hex-dump-like format.
+- **Keyboard Interrupt Exit** – Safely stops sniffing with `Ctrl+C`.
+
+---
+
+## 🧠 How It Works
 
 1. The program begins sniffing all incoming/outgoing packets using `sniff(prn=process_packet)`.
 2. For each captured packet:
@@ -25,8 +26,10 @@ in real-time with structured and readable output formatting.
    - Remaining or unknown protocols are dumped in a readable format.
 
 ---
-💻 Sample Output
 
+## 💻 Sample Output
+
+```plaintext
 Ethernet Frame:
 Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
      -IPv4 Packet:
@@ -38,15 +41,16 @@ Destination: ff:ff:ff:ff:ff:ff, Source: 00:0c:29:4f:8e:35, Protocol: 2048
              -Flags: PA
          -Data:
              \x48\x65\x6c\x6c\x6f\x20\x57\x6f\x72\x6c\x64
+```
 
 
-Requirements,
+#Requirements,
   Python 3.x
   Scapy
 
-Installation
+#Installation
 
-# Clone this repo
+ Clone this repo
 
 git clone https://github.com/yourusername/python-network-packet-sniffer.git
 cd python-network-packet-sniffer
